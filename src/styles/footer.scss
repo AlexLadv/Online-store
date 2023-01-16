@@ -1,0 +1,27 @@
+.footer {
+  flex: 0 0 auto;
+
+  &__list {
+    display: flex;
+    align-items: center;    
+  }
+
+  &__item:nth-child(2) {
+    margin-right: auto;
+  }
+
+  &__logo-rs {
+    width: 10px;
+    height: 10px;
+    transition: transform 0.1s ease-in-out;
+  }
+
+  &__logo-gh {
+    transition: transform 0.1s ease-in-out;
+  }
+
+  &__copy {
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+}

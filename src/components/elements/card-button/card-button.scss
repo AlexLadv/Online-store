@@ -1,0 +1,15 @@
+.card-button {
+  padding: 5px;
+
+  color: inherit;
+
+  background-color: inherit;
+  border: 2px solid var(--color-border_card);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

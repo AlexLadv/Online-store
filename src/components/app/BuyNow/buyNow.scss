@@ -1,0 +1,65 @@
+.testCart__item {
+  padding: 15px 25px;
+  background-color: grey;
+  width: 100%;
+}
+.test-input {
+  padding: 5px;
+  margin: 5px;
+  width: 39%;
+  border-radius: 5px;
+  outline: none;
+  height: 26px;
+  border: none;
+  font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+.test {
+  z-index: 200;
+}
+.card-data {
+  margin-bottom: 20px;
+}
+.card-data {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px solid orange;
+  border-radius: 0.5rem;
+  background: rgb(0,9,36);
+  background: linear-gradient(90deg,rgb(0,9,36) 6%,rgb(9,9,121) 34%,rgb(0,212,255) 100%);
+  width: 40%;
+  height: 11rem;
+  padding: 20px;
+}
+.test-button {
+  border: 1px solid yellow;
+  border-radius: 0.3rem;
+  padding: 15px 70px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto 10%;
+}
+.number input {
+  width: 80%;
+}
+.other-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 86%;
+  margin: 0 auto;
+}
+.valid-data, .cvv-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50%;
+}
+.valid-data input, .cvv-data input {
+  width: 85%;
+}
