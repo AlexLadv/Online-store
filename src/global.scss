@@ -1,0 +1,71 @@
+// подключения компонентов страницы
+@import "./styles/404.scss";
+@import "./styles/main.scss";
+
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  font-family: 'Roboto', serif;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;  
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.border {
+  border: 2px solid var(--color-border);
+  border-radius: 10px;
+}
+
+*,
+html *
+{
+  scrollbar-width: thin;
+  scrollbar-color: blue var(--color-border);
+}
+
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track {
+  background: var(--color-border);
+}
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 5px;
+  border: 3px solid var(--color-border);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}

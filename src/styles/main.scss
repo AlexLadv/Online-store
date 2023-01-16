@@ -1,0 +1,71 @@
+.main {
+  display: flex;
+  flex: 1 0 auto;
+
+  &__section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    border: 2px solid var(--color-border);
+    border-radius: 10px;
+  }
+
+  &__filters {
+    max-width: 290px;
+    width: 100%;
+  }
+
+  &__section-aside {
+    margin-right: 5px;
+    padding: 10px;
+    padding-bottom: 20px;
+    flex: 1 0 auto;
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+
+  &__section-cards {
+    width: 75%;
+    padding: 10px;
+    // flex: 20 0 auto;
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+.category__title {
+  margin: 10px;
+}
+
+.filters-price__inputs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filters-price__input {
+  outline: none;
+}
+
+.filter-list {
+  max-height: 10rem;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  background: rgba(76,74,65,.4);
+  padding: 5px;
+}
+
+.checkbox-line {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.checkbox-line label {
+  cursor: pointer;
+}
+
+.checkbox-line span {
+  margin-left: auto;
+}

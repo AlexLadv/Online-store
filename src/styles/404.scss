@@ -1,0 +1,35 @@
+.page-error {
+  flex-direction: column;
+  width: 97%;
+}
+.over {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  bottom: 0;
+}
+.error {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 160px;
+  color: var(--color-light);
+  position: relative;
+  z-index: 2;
+}
+.notfound {
+  text-align: center;
+  color: var(--color-light);
+  font-size: 40px;
+  position: relative;
+}
+.notfound a {
+  color: rgba(255, 255, 0, 0.7);
+  font-size: 45px;
+  text-decoration: none;
+}
+.notfound a:hover {
+  color: var(--color-border);
+  text-decoration: none;
+}

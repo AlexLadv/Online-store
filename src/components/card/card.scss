@@ -1,0 +1,64 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  color: var(--color-border_card);
+
+  background-color: var(--color-background_card);
+  border: 5px solid var(--color-border_card);
+  border-radius: 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  &:hover {
+    .card__image {
+      transform: scale(1.2);
+    }
+  }
+
+  &__title {
+    padding: 5px 0;
+
+    text-align: center;
+  }
+
+  &__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    padding: 0 0 1px 0;
+
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+
+    transition: 0.3s;
+    vertical-align: bottom;
+  }
+
+  &__info {
+    margin: 5px;
+  }
+
+  &__paragraph-info {
+    margin: 3px 0;
+
+    span {
+      color: var(--color-text_card-span);
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 10px;
+  }
+}
